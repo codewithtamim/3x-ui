@@ -3,7 +3,7 @@ package controller
 import (
 	"strconv"
 
-	"github.com/mhsanaei/3x-ui/v2/web/service"
+	"github.com/codewithtamim/3x-ui/v2/web/service"
 
 	"github.com/gin-gonic/gin"
 )

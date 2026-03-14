@@ -3,9 +3,9 @@ package service
 import (
 	"time"
 
-	"github.com/mhsanaei/3x-ui/v2/database"
-	"github.com/mhsanaei/3x-ui/v2/database/model"
-	"github.com/mhsanaei/3x-ui/v2/util/random"
+	"github.com/codewithtamim/3x-ui/v2/database"
+	"github.com/codewithtamim/3x-ui/v2/database/model"
+	"github.com/codewithtamim/3x-ui/v2/util/random"
 )
 
 type ApiKeyService struct{}

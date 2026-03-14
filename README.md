@@ -7,51 +7,59 @@
   </picture>
 </p>
 
-[![Release](https://img.shields.io/github/v/release/mhsanaei/3x-ui.svg)](https://github.com/MHSanaei/3x-ui/releases)
-[![Build](https://img.shields.io/github/actions/workflow/status/mhsanaei/3x-ui/release.yml.svg)](https://github.com/MHSanaei/3x-ui/actions)
-[![GO Version](https://img.shields.io/github/go-mod/go-version/mhsanaei/3x-ui.svg)](#)
-[![Downloads](https://img.shields.io/github/downloads/mhsanaei/3x-ui/total.svg)](https://github.com/MHSanaei/3x-ui/releases/latest)
+[![Release](https://img.shields.io/github/v/release/codewithtamim/3x-ui.svg)](https://github.com/codewithtamim/3x-ui/releases)
+[![Build](https://img.shields.io/github/actions/workflow/status/codewithtamim/3x-ui/release.yml.svg)](https://github.com/codewithtamim/3x-ui/actions)
+[![GO Version](https://img.shields.io/github/go-mod/go-version/codewithtamim/3x-ui.svg)](#)
+[![Downloads](https://img.shields.io/github/downloads/codewithtamim/3x-ui/total.svg)](https://github.com/codewithtamim/3x-ui/releases/latest)
 [![License](https://img.shields.io/badge/license-GPL%20V3-blue.svg?longCache=true)](https://www.gnu.org/licenses/gpl-3.0.en.html)
-[![Go Reference](https://pkg.go.dev/badge/github.com/mhsanaei/3x-ui/v2.svg)](https://pkg.go.dev/github.com/mhsanaei/3x-ui/v2)
-[![Go Report Card](https://goreportcard.com/badge/github.com/mhsanaei/3x-ui/v2)](https://goreportcard.com/report/github.com/mhsanaei/3x-ui/v2)
+
+> **This is an enhanced fork of [MHSanaei/3x-ui](https://github.com/MHSanaei/3x-ui)** with additional features such as API key management, Swagger API documentation, and more planned improvements.
 
 **3X-UI** — advanced, open-source web-based control panel designed for managing Xray-core server. It offers a user-friendly interface for configuring and monitoring various VPN and proxy protocols.
 
 > [!IMPORTANT]
 > This project is only for personal usage, please do not use it for illegal purposes, and please do not use it in a production environment.
 
-As an enhanced fork of the original X-UI project, 3X-UI provides improved stability, broader protocol support, and additional features.
+## What's Different in This Fork?
+
+- **API Key Management** — Create, manage, and revoke API keys directly from the Panel Settings. Authenticate API requests with `X-API-Key` header instead of session cookies.
+- **Swagger API Documentation** — Built-in Swagger UI at `/panel/api/docs` with a toggle to enable/disable from the settings page.
+- **More features coming soon** — This fork is actively developed with additional enhancements planned.
 
 ## Quick Start
 
 ```bash
-bash <(curl -Ls https://raw.githubusercontent.com/mhsanaei/3x-ui/master/install.sh)
+bash <(curl -Ls https://raw.githubusercontent.com/codewithtamim/3x-ui/main/install.sh)
 ```
 
-For full documentation, please visit the [project Wiki](https://github.com/MHSanaei/3x-ui/wiki).
+For full documentation, please visit the [project Wiki](https://github.com/codewithtamim/3x-ui/wiki).
 
-## A Special Thanks to
+## Docker
 
-- [alireza0](https://github.com/alireza0/)
+```bash
+docker pull c0dewithtamim/3x-ui:latest
+```
+
+Or use docker-compose:
+
+```bash
+git clone https://github.com/codewithtamim/3x-ui.git
+cd 3x-ui
+docker-compose up -d
+```
+
+## Credits
+
+This project is a fork of [MHSanaei/3x-ui](https://github.com/MHSanaei/3x-ui). Huge thanks to the original authors and contributors:
+
+- [MHSanaei](https://github.com/MHSanaei) — Original creator and maintainer of 3X-UI
+- [alireza0](https://github.com/alireza0/) — Major contributor to the original project
 
 ## Acknowledgment
 
 - [Iran v2ray rules](https://github.com/chocolate4u/Iran-v2ray-rules) (License: **GPL-3.0**): _Enhanced v2ray/xray and v2ray/xray-clients routing rules with built-in Iranian domains and a focus on security and adblocking._
 - [Russia v2ray rules](https://github.com/runetfreedom/russia-v2ray-rules-dat) (License: **GPL-3.0**): _This repository contains automatically updated V2Ray routing rules based on data on blocked domains and addresses in Russia._
 
-## Support project
+## License
 
-**If this project is helpful to you, you may wish to give it a**:star2:
-
-<a href="https://www.buymeacoffee.com/MHSanaei" target="_blank">
-<img src="./media/default-yellow.png" alt="Buy Me A Coffee" style="height: 70px !important;width: 277px !important;" >
-</a>
-
-</br>
-<a href="https://nowpayments.io/donation/hsanaei" target="_blank" rel="noreferrer noopener">
-   <img src="./media/donation-button-black.svg" alt="Crypto donation button by NOWPayments">
-</a>
-
-## Stargazers over Time
-
-[![Stargazers over time](https://starchart.cc/MHSanaei/3x-ui.svg?variant=adaptive)](https://starchart.cc/MHSanaei/3x-ui)
+This project is licensed under the [GPL-3.0 License](https://www.gnu.org/licenses/gpl-3.0.en.html).

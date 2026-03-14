@@ -16,16 +16,16 @@ import (
 	"strings"
 	"time"
 
-	"github.com/mhsanaei/3x-ui/v2/config"
-	"github.com/mhsanaei/3x-ui/v2/logger"
-	"github.com/mhsanaei/3x-ui/v2/util/common"
-	"github.com/mhsanaei/3x-ui/v2/web/controller"
-	"github.com/mhsanaei/3x-ui/v2/web/job"
-	"github.com/mhsanaei/3x-ui/v2/web/locale"
-	"github.com/mhsanaei/3x-ui/v2/web/middleware"
-	"github.com/mhsanaei/3x-ui/v2/web/network"
-	"github.com/mhsanaei/3x-ui/v2/web/service"
-	"github.com/mhsanaei/3x-ui/v2/web/websocket"
+	"github.com/codewithtamim/3x-ui/v2/config"
+	"github.com/codewithtamim/3x-ui/v2/logger"
+	"github.com/codewithtamim/3x-ui/v2/util/common"
+	"github.com/codewithtamim/3x-ui/v2/web/controller"
+	"github.com/codewithtamim/3x-ui/v2/web/job"
+	"github.com/codewithtamim/3x-ui/v2/web/locale"
+	"github.com/codewithtamim/3x-ui/v2/web/middleware"
+	"github.com/codewithtamim/3x-ui/v2/web/network"
+	"github.com/codewithtamim/3x-ui/v2/web/service"
+	"github.com/codewithtamim/3x-ui/v2/web/websocket"
 
 	"github.com/gin-contrib/gzip"
 	"github.com/gin-contrib/sessions"
@@ -33,7 +33,7 @@ import (
 	"github.com/gin-gonic/gin"
 	"github.com/robfig/cron/v3"
 
-	_ "github.com/mhsanaei/3x-ui/v2/docs"
+	_ "github.com/codewithtamim/3x-ui/v2/docs"
 )
 
 //go:embed assets
