@@ -1,5 +1,5 @@
 // Package database provides database initialization, migration, and management utilities
-// for the 3x-ui panel using GORM with SQLite.
+// for the xui-im panel using GORM with SQLite.
 package database
 
 import (
@@ -12,10 +12,10 @@ import (
 	"path"
 	"slices"
 
-	"github.com/codewithtamim/3x-ui/v2/config"
-	"github.com/codewithtamim/3x-ui/v2/database/model"
-	"github.com/codewithtamim/3x-ui/v2/util/crypto"
-	"github.com/codewithtamim/3x-ui/v2/xray"
+	"github.com/codewithtamim/xui-im/v2/config"
+	"github.com/codewithtamim/xui-im/v2/database/model"
+	"github.com/codewithtamim/xui-im/v2/util/crypto"
+	"github.com/codewithtamim/xui-im/v2/xray"
 
 	"gorm.io/driver/sqlite"
 	"gorm.io/gorm"

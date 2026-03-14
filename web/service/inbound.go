@@ -1,4 +1,4 @@
-// Package service provides business logic services for the 3x-ui web panel,
+// Package service provides business logic services for the xui-im web panel,
 // including inbound/outbound management, user administration, settings, and Xray integration.
 package service
 
@@ -10,11 +10,11 @@ import (
 	"strings"
 	"time"
 
-	"github.com/codewithtamim/3x-ui/v2/database"
-	"github.com/codewithtamim/3x-ui/v2/database/model"
-	"github.com/codewithtamim/3x-ui/v2/logger"
-	"github.com/codewithtamim/3x-ui/v2/util/common"
-	"github.com/codewithtamim/3x-ui/v2/xray"
+	"github.com/codewithtamim/xui-im/v2/database"
+	"github.com/codewithtamim/xui-im/v2/database/model"
+	"github.com/codewithtamim/xui-im/v2/logger"
+	"github.com/codewithtamim/xui-im/v2/util/common"
+	"github.com/codewithtamim/xui-im/v2/xray"
 
 	"gorm.io/gorm"
 )

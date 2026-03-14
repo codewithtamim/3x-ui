@@ -5,9 +5,9 @@ import (
 	"net/http"
 	"strings"
 
-	"github.com/codewithtamim/3x-ui/v2/config"
-	"github.com/codewithtamim/3x-ui/v2/logger"
-	"github.com/codewithtamim/3x-ui/v2/web/entity"
+	"github.com/codewithtamim/xui-im/v2/config"
+	"github.com/codewithtamim/xui-im/v2/logger"
+	"github.com/codewithtamim/xui-im/v2/web/entity"
 
 	"github.com/gin-gonic/gin"
 )

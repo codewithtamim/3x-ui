@@ -1,4 +1,4 @@
-// Package logger provides logging functionality for the 3x-ui panel with
+// Package logger provides logging functionality for the xui-im panel with
 // dual-backend logging (console/syslog and file) and buffered log storage for web UI.
 package logger
 
@@ -9,7 +9,7 @@ import (
 	"runtime"
 	"time"
 
-	"github.com/codewithtamim/3x-ui/v2/config"
+	"github.com/codewithtamim/xui-im/v2/config"
 	"github.com/op/go-logging"
 )
 
@@ -34,20 +34,20 @@ var (
 // InitLogger initializes dual logging backends: console/syslog and file.
 // Console logging uses the specified level, file logging always uses DEBUG level.
 func InitLogger(level logging.Level) {
-	newLogger := logging.MustGetLogger("x-ui")
+	newLogger := logging.MustGetLogger("xui-im")
 	backends := make([]logging.Backend, 0, 2)
 
 	// Console/syslog backend with configurable level
 	if consoleBackend := initDefaultBackend(); consoleBackend != nil {
 		leveledBackend := logging.AddModuleLevel(consoleBackend)
-		leveledBackend.SetLevel(level, "x-ui")
+		leveledBackend.SetLevel(level, "xui-im")
 		backends = append(backends, leveledBackend)
 	}
 
 	// File backend with DEBUG level for comprehensive logging
 	if fileBackend := initFileBackend(); fileBackend != nil {
 		leveledBackend := logging.AddModuleLevel(fileBackend)
-		leveledBackend.SetLevel(logging.DEBUG, "x-ui")
+		leveledBackend.SetLevel(logging.DEBUG, "xui-im")
 		backends = append(backends, leveledBackend)
 	}
 

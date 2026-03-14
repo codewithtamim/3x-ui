@@ -4,7 +4,7 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/codewithtamim/3x-ui/v2/web/service"
+	"github.com/codewithtamim/xui-im/v2/web/service"
 
 	"github.com/shirou/gopsutil/v4/cpu"
 )

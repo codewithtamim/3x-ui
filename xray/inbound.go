@@ -3,7 +3,7 @@ package xray
 import (
 	"bytes"
 
-	"github.com/codewithtamim/3x-ui/v2/util/json_util"
+	"github.com/codewithtamim/xui-im/v2/util/json_util"
 )
 
 // InboundConfig represents an Xray inbound configuration.

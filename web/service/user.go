@@ -3,11 +3,11 @@ package service
 import (
 	"errors"
 
-	"github.com/codewithtamim/3x-ui/v2/database"
-	"github.com/codewithtamim/3x-ui/v2/database/model"
-	"github.com/codewithtamim/3x-ui/v2/logger"
-	"github.com/codewithtamim/3x-ui/v2/util/crypto"
-	ldaputil "github.com/codewithtamim/3x-ui/v2/util/ldap"
+	"github.com/codewithtamim/xui-im/v2/database"
+	"github.com/codewithtamim/xui-im/v2/database/model"
+	"github.com/codewithtamim/xui-im/v2/logger"
+	"github.com/codewithtamim/xui-im/v2/util/crypto"
+	ldaputil "github.com/codewithtamim/xui-im/v2/util/ldap"
 	"github.com/xlzd/gotp"
 	"gorm.io/gorm"
 )

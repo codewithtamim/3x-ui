@@ -4,8 +4,8 @@ import (
 	_ "embed"
 	"encoding/json"
 
-	"github.com/codewithtamim/3x-ui/v2/util/common"
-	"github.com/codewithtamim/3x-ui/v2/xray"
+	"github.com/codewithtamim/xui-im/v2/util/common"
+	"github.com/codewithtamim/xui-im/v2/xray"
 )
 
 // XraySettingService provides business logic for Xray configuration management.

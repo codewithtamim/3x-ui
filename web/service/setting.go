@@ -11,14 +11,14 @@ import (
 	"strings"
 	"time"
 
-	"github.com/codewithtamim/3x-ui/v2/database"
-	"github.com/codewithtamim/3x-ui/v2/database/model"
-	"github.com/codewithtamim/3x-ui/v2/logger"
-	"github.com/codewithtamim/3x-ui/v2/util/common"
-	"github.com/codewithtamim/3x-ui/v2/util/random"
-	"github.com/codewithtamim/3x-ui/v2/util/reflect_util"
-	"github.com/codewithtamim/3x-ui/v2/web/entity"
-	"github.com/codewithtamim/3x-ui/v2/xray"
+	"github.com/codewithtamim/xui-im/v2/database"
+	"github.com/codewithtamim/xui-im/v2/database/model"
+	"github.com/codewithtamim/xui-im/v2/logger"
+	"github.com/codewithtamim/xui-im/v2/util/common"
+	"github.com/codewithtamim/xui-im/v2/util/random"
+	"github.com/codewithtamim/xui-im/v2/util/reflect_util"
+	"github.com/codewithtamim/xui-im/v2/web/entity"
+	"github.com/codewithtamim/xui-im/v2/xray"
 )
 
 //go:embed config.json

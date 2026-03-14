@@ -2,8 +2,8 @@
 package websocket
 
 import (
-	"github.com/codewithtamim/3x-ui/v2/logger"
-	"github.com/codewithtamim/3x-ui/v2/web/global"
+	"github.com/codewithtamim/xui-im/v2/logger"
+	"github.com/codewithtamim/xui-im/v2/web/global"
 )
 
 // GetHub returns the global WebSocket hub instance

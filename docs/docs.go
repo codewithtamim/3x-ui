@@ -10,7 +10,7 @@ const docTemplate = `{
         "description": "{{escape .Description}}",
         "title": "{{.Title}}",
         "contact": {
-            "name": "3X-UI"
+            "name": "XUI-IM"
         },
         "license": {
             "name": "GPL-3.0"
@@ -811,8 +811,8 @@ var SwaggerInfo = &swag.Spec{
 	Host:             "",
 	BasePath:         "/",
 	Schemes:          []string{},
-	Title:            "3X-UI Panel API",
-	Description:      "API for managing the 3X-UI panel including inbounds, server, and settings.",
+	Title:            "XUI-IM Panel API",
+	Description:      "API for managing the XUI-IM panel including inbounds, server, and settings.",
 	InfoInstanceName: "swagger",
 	SwaggerTemplate:  docTemplate,
 	LeftDelim:        "{{",

@@ -3,10 +3,10 @@ package job
 import (
 	"encoding/json"
 
-	"github.com/codewithtamim/3x-ui/v2/logger"
-	"github.com/codewithtamim/3x-ui/v2/web/service"
-	"github.com/codewithtamim/3x-ui/v2/web/websocket"
-	"github.com/codewithtamim/3x-ui/v2/xray"
+	"github.com/codewithtamim/xui-im/v2/logger"
+	"github.com/codewithtamim/xui-im/v2/web/service"
+	"github.com/codewithtamim/xui-im/v2/web/websocket"
+	"github.com/codewithtamim/xui-im/v2/xray"
 
 	"github.com/valyala/fasthttp"
 )

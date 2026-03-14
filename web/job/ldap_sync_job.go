@@ -5,10 +5,10 @@ import (
 
 	"strings"
 
-	"github.com/codewithtamim/3x-ui/v2/database/model"
-	"github.com/codewithtamim/3x-ui/v2/logger"
-	ldaputil "github.com/codewithtamim/3x-ui/v2/util/ldap"
-	"github.com/codewithtamim/3x-ui/v2/web/service"
+	"github.com/codewithtamim/xui-im/v2/database/model"
+	"github.com/codewithtamim/xui-im/v2/logger"
+	ldaputil "github.com/codewithtamim/xui-im/v2/util/ldap"
+	"github.com/codewithtamim/xui-im/v2/web/service"
 
 	"strconv"
 

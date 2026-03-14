@@ -1,4 +1,4 @@
-module github.com/codewithtamim/3x-ui/v2
+module github.com/codewithtamim/xui-im/v2
 
 go 1.26.0
 

@@ -1,8 +1,8 @@
 package job
 
 import (
-	"github.com/codewithtamim/3x-ui/v2/logger"
-	"github.com/codewithtamim/3x-ui/v2/web/service"
+	"github.com/codewithtamim/xui-im/v2/logger"
+	"github.com/codewithtamim/xui-im/v2/web/service"
 )
 
 // Period represents the time period for traffic resets.

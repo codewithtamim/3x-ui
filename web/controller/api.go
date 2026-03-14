@@ -3,15 +3,15 @@ package controller
 import (
 	"net/http"
 
-	"github.com/codewithtamim/3x-ui/v2/web/service"
-	"github.com/codewithtamim/3x-ui/v2/web/session"
+	"github.com/codewithtamim/xui-im/v2/web/service"
+	"github.com/codewithtamim/xui-im/v2/web/session"
 	swaggerFiles "github.com/swaggo/files"
 	ginSwagger "github.com/swaggo/gin-swagger"
 
 	"github.com/gin-gonic/gin"
 )
 
-// APIController handles the main API routes for the 3x-ui panel, including inbounds and server management.
+// APIController handles the main API routes for the xui-im panel, including inbounds and server management.
 type APIController struct {
 	BaseController
 	inboundController *InboundController

@@ -1,10 +1,10 @@
 {
     "swagger": "2.0",
     "info": {
-        "description": "API for managing the 3X-UI panel including inbounds, server, and settings.",
-        "title": "3X-UI Panel API",
+        "description": "API for managing the XUI-IM panel including inbounds, server, and settings.",
+        "title": "XUI-IM Panel API",
         "contact": {
-            "name": "3X-UI"
+            "name": "XUI-IM"
         },
         "license": {
             "name": "GPL-3.0"

@@ -4,10 +4,10 @@ import (
 	"errors"
 	"time"
 
-	"github.com/codewithtamim/3x-ui/v2/util/crypto"
-	"github.com/codewithtamim/3x-ui/v2/web/entity"
-	"github.com/codewithtamim/3x-ui/v2/web/service"
-	"github.com/codewithtamim/3x-ui/v2/web/session"
+	"github.com/codewithtamim/xui-im/v2/util/crypto"
+	"github.com/codewithtamim/xui-im/v2/web/entity"
+	"github.com/codewithtamim/xui-im/v2/web/service"
+	"github.com/codewithtamim/xui-im/v2/web/session"
 
 	"github.com/gin-gonic/gin"
 )

@@ -46,7 +46,7 @@ The `docker-compose.yml` supports two modes depending on your platform:
 
 ```bash
 # View logs
-docker compose logs -f 3xui
+docker compose logs -f xui-im
 
 # Stop the container
 docker compose down

@@ -2,31 +2,28 @@
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./media/3x-ui-dark.png">
-    <img alt="3x-ui" src="./media/3x-ui-light.png">
+    <source media="(prefers-color-scheme: dark)" srcset="./media/xui-im-dark.png">
+    <img alt="xui-im" src="./media/xui-im-light.png">
   </picture>
 </p>
 
-[![Release](https://img.shields.io/github/v/release/codewithtamim/3x-ui.svg)](https://github.com/codewithtamim/3x-ui/releases)
-[![Build](https://img.shields.io/github/actions/workflow/status/codewithtamim/3x-ui/release.yml.svg)](https://github.com/codewithtamim/3x-ui/actions)
-[![GO Version](https://img.shields.io/github/go-mod/go-version/codewithtamim/3x-ui.svg)](#)
-[![Downloads](https://img.shields.io/github/downloads/codewithtamim/3x-ui/total.svg)](https://github.com/codewithtamim/3x-ui/releases/latest)
+[![Release](https://img.shields.io/github/v/release/codewithtamim/xui-im.svg)](https://github.com/codewithtamim/xui-im/releases)
+[![Build](https://img.shields.io/github/actions/workflow/status/codewithtamim/xui-im/release.yml.svg)](https://github.com/codewithtamim/xui-im/actions)
+[![GO Version](https://img.shields.io/github/go-mod/go-version/codewithtamim/xui-im.svg)](#)
+[![Downloads](https://img.shields.io/github/downloads/codewithtamim/xui-im/total.svg)](https://github.com/codewithtamim/xui-im/releases/latest)
 [![License](https://img.shields.io/badge/license-GPL%20V3-blue.svg?longCache=true)](https://www.gnu.org/licenses/gpl-3.0.en.html)
 
 > **本项目是 [MHSanaei/3x-ui](https://github.com/MHSanaei/3x-ui) 的增强版分支**，新增了 API 密钥管理和 Swagger API 文档等功能。
 
 **3X-UI** — 一个基于网页的高级开源控制面板，专为管理 Xray-core 服务器而设计。它提供了用户友好的界面，用于配置和监控各种 VPN 和代理协议。
 
-> [!IMPORTANT]
-> 本项目仅用于个人使用和通信，请勿将其用于非法目的，请勿在生产环境中使用。
-
 ## 快速开始
 
 ```
-bash <(curl -Ls https://raw.githubusercontent.com/codewithtamim/3x-ui/main/install.sh)
+bash <(curl -Ls https://raw.githubusercontent.com/codewithtamim/xui-im/main/install.sh)
 ```
 
-完整文档请参阅 [项目Wiki](https://github.com/codewithtamim/3x-ui/wiki)。
+完整文档请参阅 [项目Wiki](https://github.com/codewithtamim/xui-im/wiki)。
 
 ## 致谢
 

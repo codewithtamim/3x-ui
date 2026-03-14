@@ -11,13 +11,13 @@ import (
 	"sync"
 	"time"
 
-	"github.com/codewithtamim/3x-ui/v2/config"
-	"github.com/codewithtamim/3x-ui/v2/database"
-	"github.com/codewithtamim/3x-ui/v2/database/model"
-	"github.com/codewithtamim/3x-ui/v2/logger"
-	"github.com/codewithtamim/3x-ui/v2/util/common"
-	"github.com/codewithtamim/3x-ui/v2/util/json_util"
-	"github.com/codewithtamim/3x-ui/v2/xray"
+	"github.com/codewithtamim/xui-im/v2/config"
+	"github.com/codewithtamim/xui-im/v2/database"
+	"github.com/codewithtamim/xui-im/v2/database/model"
+	"github.com/codewithtamim/xui-im/v2/logger"
+	"github.com/codewithtamim/xui-im/v2/util/common"
+	"github.com/codewithtamim/xui-im/v2/util/json_util"
+	"github.com/codewithtamim/xui-im/v2/xray"
 
 	"gorm.io/gorm"
 )

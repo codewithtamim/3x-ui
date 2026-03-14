@@ -2,31 +2,28 @@
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./media/3x-ui-dark.png">
-    <img alt="3x-ui" src="./media/3x-ui-light.png">
+    <source media="(prefers-color-scheme: dark)" srcset="./media/xui-im-dark.png">
+    <img alt="xui-im" src="./media/xui-im-light.png">
   </picture>
 </p>
 
-[![Release](https://img.shields.io/github/v/release/codewithtamim/3x-ui.svg)](https://github.com/codewithtamim/3x-ui/releases)
-[![Build](https://img.shields.io/github/actions/workflow/status/codewithtamim/3x-ui/release.yml.svg)](https://github.com/codewithtamim/3x-ui/actions)
-[![GO Version](https://img.shields.io/github/go-mod/go-version/codewithtamim/3x-ui.svg)](#)
-[![Downloads](https://img.shields.io/github/downloads/codewithtamim/3x-ui/total.svg)](https://github.com/codewithtamim/3x-ui/releases/latest)
+[![Release](https://img.shields.io/github/v/release/codewithtamim/xui-im.svg)](https://github.com/codewithtamim/xui-im/releases)
+[![Build](https://img.shields.io/github/actions/workflow/status/codewithtamim/xui-im/release.yml.svg)](https://github.com/codewithtamim/xui-im/actions)
+[![GO Version](https://img.shields.io/github/go-mod/go-version/codewithtamim/xui-im.svg)](#)
+[![Downloads](https://img.shields.io/github/downloads/codewithtamim/xui-im/total.svg)](https://github.com/codewithtamim/xui-im/releases/latest)
 [![License](https://img.shields.io/badge/license-GPL%20V3-blue.svg?longCache=true)](https://www.gnu.org/licenses/gpl-3.0.en.html)
 
 > **Это улучшенный форк [MHSanaei/3x-ui](https://github.com/MHSanaei/3x-ui)** с дополнительными функциями, такими как управление API-ключами и документация Swagger API.
 
 **3X-UI** — продвинутая панель управления с открытым исходным кодом на основе веб-интерфейса, разработанная для управления сервером Xray-core. Предоставляет удобный интерфейс для настройки и мониторинга различных VPN и прокси-протоколов.
 
-> [!IMPORTANT]
-> Этот проект предназначен только для личного использования, пожалуйста, не используйте его в незаконных целях и в производственной среде.
-
 ## Быстрый старт
 
 ```
-bash <(curl -Ls https://raw.githubusercontent.com/codewithtamim/3x-ui/main/install.sh)
+bash <(curl -Ls https://raw.githubusercontent.com/codewithtamim/xui-im/main/install.sh)
 ```
 
-Полную документацию смотрите в [вики проекта](https://github.com/codewithtamim/3x-ui/wiki).
+Полную документацию смотрите в [вики проекта](https://github.com/codewithtamim/xui-im/wiki).
 
 ## Благодарности
 

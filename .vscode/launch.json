@@ -3,7 +3,7 @@
   "version": "0.2.0",
   "configurations": [
     {
-      "name": "Run 3x-ui (Debug)",
+      "name": "Run xui-im (Debug)",
       "type": "go",
       "request": "launch",
       "mode": "auto",
@@ -15,7 +15,7 @@
       "console": "integratedTerminal"
     },
     {
-      "name": "Run 3x-ui (Debug, custom env)",
+      "name": "Run xui-im (Debug, custom env)",
       "type": "go",
       "request": "launch",
       "mode": "auto",

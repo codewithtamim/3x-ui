@@ -156,8 +156,8 @@
                 </a-card>
               </a-col>
               <a-col :sm="24" :lg="12">
-                <a-card title='3X-UI' hoverable>
-                  <a rel="noopener" href="https://github.com/codewithtamim/3x-ui/releases" target="_blank">
+                <a-card title='XUI-IM' hoverable>
+                  <a rel="noopener" href="https://github.com/codewithtamim/xui-im/releases" target="_blank">
                     <a-tag color="green">
                       <span>v{{ .cur_ver }}</span>
                     </a-tag>
@@ -167,7 +167,7 @@
                       <span>@XrayUI</span>
                     </a-tag>
                   </a>
-                  <a rel="noopener" href="https://github.com/codewithtamim/3x-ui/wiki" target="_blank">
+                  <a rel="noopener" href="https://github.com/codewithtamim/xui-im/wiki" target="_blank">
                     <a-tag color="purple">
                       <span>{{ i18n "pages.index.documentation" }}</span>
                     </a-tag>
@@ -365,7 +365,7 @@
         <a-checkbox v-model="logModal.syslog" @change="openLogs()">SysLog</a-checkbox>
       </a-form-item>
       <a-form-item style="float: right;">
-        <a-button type="primary" icon="download" @click="FileManager.downloadTextFile(logModal.logs?.join('\n'), 'x-ui.log')"></a-button>
+        <a-button type="primary" icon="download" @click="FileManager.downloadTextFile(logModal.logs?.join('\n'), 'xui-im.log')"></a-button>
       </a-form-item>
     </a-form>
     <div class="ant-input log-container" v-html="logModal.formattedLogs"></div>
@@ -1038,7 +1038,7 @@
       },
       downloadXrayLogs() {
         if (!Array.isArray(this.xraylogModal.logs) || this.xraylogModal.logs.length === 0) {
-          FileManager.downloadTextFile('', 'x-ui.log');
+          FileManager.downloadTextFile('', 'xui-im.log');
           return;
         }
         const lines = this.xraylogModal.logs.map(l => {
@@ -1053,7 +1053,7 @@
             return JSON.stringify(l);
           }
         }).join('\n');
-        FileManager.downloadTextFile(lines, 'x-ui.log');
+        FileManager.downloadTextFile(lines, 'xui-im.log');
       },
       async openConfig() {
         this.loading(true);

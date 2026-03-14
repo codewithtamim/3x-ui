@@ -13,10 +13,10 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/codewithtamim/3x-ui/v2/database"
-	"github.com/codewithtamim/3x-ui/v2/database/model"
-	"github.com/codewithtamim/3x-ui/v2/logger"
-	"github.com/codewithtamim/3x-ui/v2/xray"
+	"github.com/codewithtamim/xui-im/v2/database"
+	"github.com/codewithtamim/xui-im/v2/database/model"
+	"github.com/codewithtamim/xui-im/v2/logger"
+	"github.com/codewithtamim/xui-im/v2/xray"
 )
 
 // IPWithTimestamp tracks an IP address with its last seen timestamp

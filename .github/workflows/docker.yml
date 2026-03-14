@@ -1,4 +1,4 @@
-name: Release 3X-UI for Docker
+name: Release XUI-IM for Docker
 
 permissions:
   contents: read
@@ -24,8 +24,8 @@ jobs:
         uses: docker/metadata-action@v5
         with:
           images: |
-            c0dewithtamim/3x-ui
-            ghcr.io/codewithtamim/3x-ui
+            c0dewithtamim/xui-im
+            ghcr.io/codewithtamim/xui-im
           tags: |
             type=ref,event=branch
             type=ref,event=tag

@@ -1,4 +1,4 @@
-// Package web provides the main web server implementation for the 3x-ui panel,
+// Package web provides the main web server implementation for the xui-im panel,
 // including HTTP/HTTPS serving, routing, templates, and background job scheduling.
 package web
 
@@ -16,16 +16,16 @@ import (
 	"strings"
 	"time"
 
-	"github.com/codewithtamim/3x-ui/v2/config"
-	"github.com/codewithtamim/3x-ui/v2/logger"
-	"github.com/codewithtamim/3x-ui/v2/util/common"
-	"github.com/codewithtamim/3x-ui/v2/web/controller"
-	"github.com/codewithtamim/3x-ui/v2/web/job"
-	"github.com/codewithtamim/3x-ui/v2/web/locale"
-	"github.com/codewithtamim/3x-ui/v2/web/middleware"
-	"github.com/codewithtamim/3x-ui/v2/web/network"
-	"github.com/codewithtamim/3x-ui/v2/web/service"
-	"github.com/codewithtamim/3x-ui/v2/web/websocket"
+	"github.com/codewithtamim/xui-im/v2/config"
+	"github.com/codewithtamim/xui-im/v2/logger"
+	"github.com/codewithtamim/xui-im/v2/util/common"
+	"github.com/codewithtamim/xui-im/v2/web/controller"
+	"github.com/codewithtamim/xui-im/v2/web/job"
+	"github.com/codewithtamim/xui-im/v2/web/locale"
+	"github.com/codewithtamim/xui-im/v2/web/middleware"
+	"github.com/codewithtamim/xui-im/v2/web/network"
+	"github.com/codewithtamim/xui-im/v2/web/service"
+	"github.com/codewithtamim/xui-im/v2/web/websocket"
 
 	"github.com/gin-contrib/gzip"
 	"github.com/gin-contrib/sessions"
@@ -33,7 +33,7 @@ import (
 	"github.com/gin-gonic/gin"
 	"github.com/robfig/cron/v3"
 
-	_ "github.com/codewithtamim/3x-ui/v2/docs"
+	_ "github.com/codewithtamim/xui-im/v2/docs"
 )
 
 //go:embed assets
@@ -93,7 +93,7 @@ func EmbeddedAssets() embed.FS {
 	return assetsFS
 }
 
-// Server represents the main web server for the 3x-ui panel with controllers, services, and scheduled jobs.
+// Server represents the main web server for the xui-im panel with controllers, services, and scheduled jobs.
 type Server struct {
 	httpServer *http.Server
 	listener   net.Listener
@@ -215,7 +215,7 @@ func (s *Server) initRouter() (*gin.Engine, error) {
 			SameSite: http.SameSiteLaxMode,
 		})
 	}
-	engine.Use(sessions.Sessions("3x-ui", store))
+	engine.Use(sessions.Sessions("xui-im", store))
 	engine.Use(func(c *gin.Context) {
 		c.Set("base_path", basePath)
 	})

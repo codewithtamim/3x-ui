@@ -7,9 +7,9 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/codewithtamim/3x-ui/v2/web/global"
-	"github.com/codewithtamim/3x-ui/v2/web/service"
-	"github.com/codewithtamim/3x-ui/v2/web/websocket"
+	"github.com/codewithtamim/xui-im/v2/web/global"
+	"github.com/codewithtamim/xui-im/v2/web/service"
+	"github.com/codewithtamim/xui-im/v2/web/websocket"
 
 	"github.com/gin-gonic/gin"
 )

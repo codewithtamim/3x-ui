@@ -5,7 +5,7 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/codewithtamim/3x-ui/v2/logger"
+	"github.com/codewithtamim/xui-im/v2/logger"
 )
 
 // PanelService provides business logic for panel management operations.

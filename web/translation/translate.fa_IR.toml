@@ -688,7 +688,7 @@
 "report" = "🕰 گزارشات‌زمان‌بندی‌شده: {{ .RunTime }}\r\n"
 "datetime" = "⏰ تاریخ‌وزمان: {{ .DateTime }}\r\n"
 "hostname" = "💻 نام‌میزبان: {{ .Hostname }}\r\n"
-"version" = "🚀 نسخه‌پنل: {{ .Version }}\r\n"
+"version" = "🚀 نسخه XUI-IM: {{ .Version }}\r\n"
 "xrayVersion" = "📡 نسخه‌هسته: {{ .XrayVersion }}\r\n"
 "ipv6" = "🌐 IPv6: {{ .IPv6 }}\r\n"
 "ipv4" = "🌐 IPv4: {{ .IPv4 }}\r\n"

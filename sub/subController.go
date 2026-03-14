@@ -6,7 +6,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/codewithtamim/3x-ui/v2/config"
+	"github.com/codewithtamim/xui-im/v2/config"
 
 	"github.com/gin-gonic/gin"
 )

@@ -22,11 +22,11 @@ definitions:
     type: object
 info:
   contact:
-    name: 3X-UI
-  description: API for managing the 3X-UI panel including inbounds, server, and settings.
+    name: XUI-IM
+  description: API for managing the XUI-IM panel including inbounds, server, and settings.
   license:
     name: GPL-3.0
-  title: 3X-UI Panel API
+  title: XUI-IM Panel API
   version: "2.0"
 paths:
   /panel/api/inbounds/{id}/delClient/{clientId}:

@@ -1,4 +1,4 @@
-// Package sub provides subscription server functionality for the 3x-ui panel,
+// Package sub provides subscription server functionality for the xui-im panel,
 // including HTTP/HTTPS servers for serving subscription links and JSON configurations.
 package sub
 
@@ -15,13 +15,13 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/codewithtamim/3x-ui/v2/logger"
-	"github.com/codewithtamim/3x-ui/v2/util/common"
-	webpkg "github.com/codewithtamim/3x-ui/v2/web"
-	"github.com/codewithtamim/3x-ui/v2/web/locale"
-	"github.com/codewithtamim/3x-ui/v2/web/middleware"
-	"github.com/codewithtamim/3x-ui/v2/web/network"
-	"github.com/codewithtamim/3x-ui/v2/web/service"
+	"github.com/codewithtamim/xui-im/v2/logger"
+	"github.com/codewithtamim/xui-im/v2/util/common"
+	webpkg "github.com/codewithtamim/xui-im/v2/web"
+	"github.com/codewithtamim/xui-im/v2/web/locale"
+	"github.com/codewithtamim/xui-im/v2/web/middleware"
+	"github.com/codewithtamim/xui-im/v2/web/network"
+	"github.com/codewithtamim/xui-im/v2/web/service"
 
 	"github.com/gin-gonic/gin"
 )
